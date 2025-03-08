@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Model-Llama%203.2%203B-blue" alt="Model"><a href="https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct">
-  <img src="https://img.shields.io/badge/Unsloth-cyan" alt="Task"><a href="https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Llama3.1_(8B)-GRPO.ipynb">
+  <img src="https://img.shields.io/badge/Unsloth-GRPO-cyan" alt="Task"><a href="https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Llama3.1_(8B)-GRPO.ipynb">
   <img src="https://img.shields.io/badge/DeepSeek-R1%20|%20GRPO-orange" alt="Methods"><a href="https://arxiv.org/pdf/2501.12948">
   <a href="https://huggingface.co/aditya0619"><img src="https://img.shields.io/badge/HuggingFace-Models-yellow" alt="HuggingFace"></a>
 </p>
