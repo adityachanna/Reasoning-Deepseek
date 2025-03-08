@@ -24,7 +24,7 @@ We conducted two primary experiments, both leveraging the Unsloth notebook envir
 
 ### Experiment 1: Supervised Fine-Tuning (SFT)
 
-The Llama 3.2 3B model was fine-tuned using a curated dataset specifically designed to promote reasoning skills. This dataset likely included examples with explicit chain-of-thought reasoning, similar to the "cold-start" data described in the DeepSeek-R1 paper, although the scale was undoubtedly much smaller. The prompt format was:
+The Llama 3.2 3B model was fine-tuned using a curated dataset designed to promote reasoning skills. This dataset likely included examples with explicit chain-of-thought reasoning, similar to the "cold-start" data described in the DeepSeek-R1 paper, although the scale was undoubtedly much smaller. The prompt format was:
 
 ```
 Reasoning:
