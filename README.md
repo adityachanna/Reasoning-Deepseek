@@ -132,18 +132,25 @@ The provided outputs offer qualitative insights into the performance of both mod
 
 #### GRPO Model Chat Examples
 
-![GRPO Model Chat Example 1](images/Grpo.png)
-![GRPO Model Chat Example 2](images/Grpoap.png)
-![GRPO Model Chat Example 3](images/grpo2.png)
+![GRPO Model Basic Reasoning Example](images/Grpo.png)
+**Figure 1:** GRPO model correctly applying reasoning pattern with XML tags on a simple mathematics problem. Note how it structures the solution step-by-step while maintaining the requested format.
 
+![GRPO Model on Arithmetic Progression](images/Grpoap.png)
+**Figure 2:** GRPO model accurately analyzing an arithmetic progression problem. Unlike the SFT model, it correctly identifies that the sequence is an arithmetic progression and provides proper mathematical justification.
+
+![GRPO Model Complex Reasoning](images/grpo2.png)
+**Figure 3:** GRPO model handling a more complex problem. Note how it maintains logical reasoning flow despite the challenging nature of the question, showcasing the effectiveness of the reinforcement learning approach.
 
 #### SFT Model Error Examples
 
 ![SFT Model Error on Arithmetic Progression](images/sft1.png)
+**Figure 4:** SFT model incorrectly analyzing the arithmetic progression question. This highlights a key limitation in the supervised fine-tuning approach, where the model fails to generalize mathematical concepts it was not explicitly trained on.
 
-![SFT Model Error Example 2](images/sft2.png)
+![SFT Model Reasoning Pattern](images/sft2.png)
+**Figure 5:** SFT model showing its consistent "Reasoning:" and "Answer:" format but lacking the XML tags that were targeted in the GRPO training. While the reasoning is structured, it demonstrates how the SFT model adheres only to patterns present in its training data.
 
-![SFT Model Error Example 3](images/sft3.png)
+![SFT Model Application Attempt](images/sft3.png)
+**Figure 6:** SFT model attempting to solve a practical application problem. Despite providing a structured approach, it shows limitations in deeper analytical reasoning compared to the GRPO model.
 
 ## Discussion
 
