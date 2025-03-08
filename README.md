@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Model-LLaMA%203.2%203B-blue" alt="Model">
   <img src="https://img.shields.io/badge/Task-Reasoning-green" alt="Task">
   <img src="https://img.shields.io/badge/Methods-SFT%20|%20GRPO-orange" alt="Methods">
-  <a href="https://huggingface.co/adityachanna"><img src="https://img.shields.io/badge/HuggingFace-Models-yellow" alt="HuggingFace"></a>
+  <a href="https://huggingface.co/aditya0619"><img src="https://img.shields.io/badge/HuggingFace-Models-yellow" alt="HuggingFace"></a>
 </p>
 
 This project explores applying DeepSeek-R1's reasoning enhancement techniques to smaller language models, demonstrating that advanced reasoning strategies can be effective even with limited parameters.
