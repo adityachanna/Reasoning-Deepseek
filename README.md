@@ -139,11 +139,11 @@ The provided outputs offer qualitative insights into the performance of both mod
 
 #### SFT Model Error Examples
 
-![SFT Model Error on Arithmetic Progression](images/sft1)
+![SFT Model Error on Arithmetic Progression](images/sft1.png)
 
-![SFT Model Error Example 2](images/sft2)
+![SFT Model Error Example 2](images/sft2.png)
 
-![SFT Model Error Example 3](images/sft3)
+![SFT Model Error Example 3](images/sft3.png)
 
 ## Discussion
 
