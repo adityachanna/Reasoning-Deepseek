@@ -5,7 +5,6 @@
   <a href="https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Llama3.1_(8B)-GRPO.ipynb"><img src="https://img.shields.io/badge/Unsloth-GRPO-cyan" alt="Task"></a>
   <a href="https://arxiv.org/pdf/2501.12948"><img src="https://img.shields.io/badge/DeepSeek-R1%20|%20GRPO-orange" alt="Methods"></a>
   <a href="https://huggingface.co/aditya0619"><img src="https://img.shields.io/badge/HuggingFace-Models-yellow" alt="HuggingFace"></a>
-  <a href="https://github.com/adityachanna/SmallLM-Reasoning"><img src="https://img.shields.io/badge/GitHub-Repository-lightgrey" alt="GitHub"></a>
 </p>
 This project explores applying DeepSeek-R1's reasoning enhancement techniques to smaller language models, demonstrating that advanced reasoning strategies can be effective even with limited parameters.
 
