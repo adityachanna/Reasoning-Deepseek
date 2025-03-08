@@ -41,7 +41,7 @@ A fresh instance of the Llama 3.2 3B model was trained using the GRPO algorithm,
 
 This section provides the specifics of the GRPO experiment, based on the provided code:
 
-- **Dataset**: The gsm8k dataset (from openai/gsm8k, 'main' split) was used. This dataset consists of grade school math word problems.
+- **Dataset**: The Optimized_Reasoning dataset (from Rombo-Org/Optimized_Reasoning, 'main' split) was used. This dataset consists of a reasoning dataset made with Deepseek R1.
 
 - **Prompting Format**: The model was prompted using the following system prompt:
   ```
@@ -54,7 +54,7 @@ This section provides the specifics of the GRPO experiment, based on the provide
   </answer>
   ```
 
-  The user prompt was the question from the gsm8k dataset. The desired output format was the XML_COT_FORMAT:
+  The user prompt was the question from the Optimized_Reasoning dataset. The desired output format was the XML_COT_FORMAT:
   ```
   <reasoning>
   {reasoning}
@@ -161,7 +161,7 @@ The provided outputs offer qualitative insights into the performance of both mod
 
 <figure>
   <img src="images/sft3.png" alt="SFT Model Application Attempt">
-  <figcaption><strong>Figure 6:</strong> SFT model attempting to solve a practical application problem. Despite providing a structured approach, it shows limitations in deeper analytical reasoning compared to the GRPO model.</figcaption>
+  <figcaption><strong>Figure 6:</strong> SFT model attempting to solve a practical application problem. Despite providing a structured approach, it Seems promising on only on data or type of data it is trained on.</figcaption>
 </figure>
 
 ## Discussion
