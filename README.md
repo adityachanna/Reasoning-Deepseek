@@ -132,25 +132,37 @@ The provided outputs offer qualitative insights into the performance of both mod
 
 #### GRPO Model Chat Examples
 
-![GRPO Model Basic Reasoning Example](images/Grpo.png)
-**Figure 1:** GRPO model correctly applying reasoning pattern with XML tags on a simple mathematics problem. Note how it structures the solution step-by-step while maintaining the requested format.
+<figure>
+  <img src="images/Grpo.png" alt="GRPO Model Basic Reasoning Example">
+  <figcaption><strong>Figure 1:</strong> GRPO model correctly applying reasoning pattern with XML tags on a simple mathematics problem. Note how it structures the solution step-by-step while maintaining the requested format.</figcaption>
+</figure>
 
-![GRPO Model on Arithmetic Progression](images/Grpoap.png)
-**Figure 2:** GRPO model accurately analyzing an arithmetic progression problem. Unlike the SFT model, it correctly identifies that the sequence is an arithmetic progression and provides proper mathematical justification.
+<figure>
+  <img src="images/Grpoap.png" alt="GRPO Model on Arithmetic Progression">
+  <figcaption><strong>Figure 2:</strong> GRPO model accurately analyzing an arithmetic progression problem. Unlike the SFT model, it correctly identifies that the sequence is not an arithmetic progression and provides proper mathematical justification.</figcaption>
+</figure>
 
-![GRPO Model Complex Reasoning](images/grpo2.png)
-**Figure 3:** GRPO model handling a more complex problem. Note how it maintains logical reasoning flow despite the challenging nature of the question, showcasing the effectiveness of the reinforcement learning approach.
+<figure>
+  <img src="images/grpo2.png" alt="GRPO Model Complex Reasoning">
+  <figcaption><strong>Figure 3:</strong> GRPO model handling a more complex problem. Note how it maintains logical reasoning flow despite the challenging nature of the question, showcasing the effectiveness of the reinforcement learning approach.</figcaption>
+</figure>
 
 #### SFT Model Error Examples
 
-![SFT Model Error on Arithmetic Progression](images/sft1.png)
-**Figure 4:** SFT model incorrectly analyzing the arithmetic progression question. This highlights a key limitation in the supervised fine-tuning approach, where the model fails to generalize mathematical concepts it was not explicitly trained on.
+<figure>
+  <img src="images/sft1.png" alt="SFT Model Error on Arithmetic Progression">
+  <figcaption><strong>Figure 4:</strong> SFT model incorrectly analyzing the arithmetic progression question. This highlights a key limitation in the supervised fine-tuning approach, where the model fails to generalize mathematical concepts it was not explicitly trained on.</figcaption>
+</figure>
 
-![SFT Model Reasoning Pattern](images/sft2.png)
-**Figure 5:** SFT model showing its consistent "Reasoning:" and "Answer:" format but lacking the XML tags that were targeted in the GRPO training. While the reasoning is structured, it demonstrates how the SFT model adheres only to patterns present in its training data.
+<figure>
+  <img src="images/sft2.png" alt="SFT Model Reasoning Pattern">
+  <figcaption><strong>Figure 5:</strong> SFT model showing its consistent "Reasoning:" and "Answer:" format but lacking the XML tags that were targeted in the GRPO training. While the reasoning is structured, it demonstrates how the SFT model adheres only to patterns present in its training data.</figcaption>
+</figure>
 
-![SFT Model Application Attempt](images/sft3.png)
-**Figure 6:** SFT model attempting to solve a practical application problem. Despite providing a structured approach, it shows limitations in deeper analytical reasoning compared to the GRPO model.
+<figure>
+  <img src="images/sft3.png" alt="SFT Model Application Attempt">
+  <figcaption><strong>Figure 6:</strong> SFT model attempting to solve a practical application problem. Despite providing a structured approach, it shows limitations in deeper analytical reasoning compared to the GRPO model.</figcaption>
+</figure>
 
 ## Discussion
 
