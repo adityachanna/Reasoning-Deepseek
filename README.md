@@ -144,7 +144,7 @@ The provided outputs offer qualitative insights into the performance of both mod
 
 <figure>
   <img src="images/grpo2.png" alt="GRPO Model Complex Reasoning">
-  <figcaption><strong>Figure 3:</strong> GRPO model handling a more complex problem. Note how it maintains logical reasoning flow despite the challenging nature of the question, showcasing the effectiveness of the reinforcement learning approach.</figcaption>
+  <figcaption><strong>Figure 3:</strong> GRPO model handling a more complex problem. Note how it maintains logical reasoning flow despite the challenging nature of the question, but it doesn't follow the requested format, showcasing the effectiveness of the reinforcement learning approach.</figcaption>
 </figure>
 
 #### SFT Model Error Examples
