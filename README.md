@@ -133,18 +133,17 @@ The provided outputs offer qualitative insights into the performance of both mod
 #### GRPO Model Chat Examples
 
 ![GRPO Model Chat Example 1](images/Grpo.png)
-<!-- Add your screenshot of GRPO model chat here -->
+![GRPO Model Chat Example 2](images/grpoap.png)
+![GRPO Model Chat Example 3](images/grpo1.png)
 
-![GRPO Model Chat Example 2](images/grpoap)
-<!-- Add another screenshot of GRPO model chat here -->
 
 #### SFT Model Error Examples
 
-![SFT Model Error on Arithmetic Progression](images/sft_error_arithmetic.png)
-<!-- Add your screenshot of SFT model making mistake on arithmetic progression question -->
+![SFT Model Error on Arithmetic Progression](images/sft1)
 
-![SFT Model Error Example 2](images/sft_error_example2.png)
-<!-- Add another screenshot of SFT model error -->
+![SFT Model Error Example 2](images/sft2)
+
+![SFT Model Error Example 3](images/sft3)
 
 ## Discussion
 
