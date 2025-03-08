@@ -36,7 +36,7 @@ We conducted two primary experiments, both leveraging the Unsloth notebook envir
 
 ### Experiment 1: Supervised Fine-Tuning (SFT)
 
-The LLaMA 3.2 3B model was fine-tuned using a curated dataset designed to promote reasoning skills. This dataset included examples with explicit chain-of-thought reasoning, similar to the "cold-start" data described in the DeepSeek-R1 paper, although at a much smaller scale. The prompt format was:
+The LLaMA 3.2 3B model was fine-tuned using a curated dataset(Rombo-Org/Optimized_Reasoning) designed to promote reasoning skills. This dataset included examples with explicit chain-of-thought reasoning(Got from Deepseek R1), similar to the "cold-start" data described in the DeepSeek-R1 paper, although at a much smaller scale. The prompt format was:
 
 ```
 Reasoning:
@@ -76,7 +76,7 @@ This section provides the specifics of the GRPO experiment:
   </answer>
   ```
 
-- **Answer Extraction**: The code includes functions to extract the answer from both the desired XML format (`extract_xml_answer`) and the original gsm8k format (which uses #### to denote the answer).
+- **Answer Extraction**: The code includes functions to extract the answer from both the desired XML format (`extract_xml_answer`) and the original  format (which uses #### to denote the answer).
 
 - **Reward Functions**: Several reward functions were defined:
 
