@@ -39,10 +39,12 @@ We conducted two primary experiments, both leveraging the Unsloth notebook envir
 The LLaMA 3.2 3B model was fine-tuned using a curated dataset(Rombo-Org/Optimized_Reasoning) designed to promote reasoning skills. This dataset included examples with explicit chain-of-thought reasoning(Got from Deepseek R1), similar to the "cold-start" data described in the DeepSeek-R1 paper, although at a much smaller scale. The prompt format was:
 
 ```
-Reasoning:
-...
-Answer:
-...
+ <reasoning>
+  ...
+  </reasoning>
+  <answer>
+  ...
+  </answer>
 ```
 
 ### Experiment 2: Group Relative Policy Optimization (GRPO)
