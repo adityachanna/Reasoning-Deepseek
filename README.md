@@ -105,8 +105,8 @@ This section provides the specifics of the GRPO experiment:
 
 ## Model Links
 
-- [SFT Model: LLaMA 3.2 3B Reasoning v2.5](https://huggingface.co/adityachanna/llama3.2_3b_reasoning_v2.5_gguf)
-- [GRPO Model: LLaMA 3.2 3B Reasoning](https://huggingface.co/adityachanna/llama3.2_3b_reasoning_gguf)
+- [SFT Model: LLaMA 3.2 3B Reasoning v2.5](https://huggingface.co/aditya0619/llama3.2_3b_reasoning_v2.5_gguf)
+- [GRPO Model: LLaMA 3.2 3B Reasoning](https://huggingface.co/aditya0619/llama3.2_3b_reasoning_gguf)
 
 You can use these models with frameworks like [LM Studio](https://lmstudio.ai/) or any other GGUF-compatible inference engine.
 
