@@ -92,8 +92,8 @@ It's crucial to acknowledge the significant differences between our experiments 
 
 ## Model Links
 
-- [SFT Model: Llama 3.2 3B Reasoning v2.5](https://huggingface.co/YOUR-USERNAME/llama3.2_3b_reasoning_v2.5_gguf) <!-- Replace with actual link -->
-- [GRPO Model: Llama 3.2 3B Reasoning](https://huggingface.co/YOUR-USERNAME/llama3.2_3b_reasoning_gguf) <!-- Replace with actual link -->
+- [SFT Model: Llama 3.2 3B Reasoning v2.5](https://huggingface.co/Aditya0619/Llama3.2_3B_Reasoning_V2.5_GGUF) <!-- Replace with actual link -->
+- [GRPO Model: Llama 3.2 3B Reasoning](Aditya0619/Llama3.2_3B_Reasoning_GGUF) <!-- Replace with actual link -->
 
 You can use these models with frameworks like [LM Studio](https://lmstudio.ai/) or any other GGUF-compatible inference engine.
 
