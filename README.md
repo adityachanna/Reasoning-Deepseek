@@ -133,8 +133,8 @@ The provided outputs offer qualitative insights into the performance of both mod
 #### GRPO Model Chat Examples
 
 ![GRPO Model Chat Example 1](images/Grpo.png)
-![GRPO Model Chat Example 2](images/grpoap.png)
-![GRPO Model Chat Example 3](images/grpo1.png)
+![GRPO Model Chat Example 2](images/Grpoap.png)
+![GRPO Model Chat Example 3](images/grpo2.png)
 
 
 #### SFT Model Error Examples
