@@ -134,12 +134,12 @@ The provided outputs offer qualitative insights into the performance of both mod
 
 <figure>
   <img src="images/Grpo.png" alt="GRPO Model Basic Reasoning Example">
-  <figcaption><strong>Figure 1:</strong> GRPO model correctly applying reasoning pattern with XML tags on a simple mathematics problem. Note how it structures the solution step-by-step while maintaining the requested format.</figcaption>
+  <figcaption><strong>Figure 1:</strong> GRPO model correctly applying reasoning pattern with XML tags on a simple mathematics problem. Note how it structures the solution step-by-step while somewhat maintaining the requested format.</figcaption>
 </figure>
 
 <figure>
   <img src="images/Grpoap.png" alt="GRPO Model on Arithmetic Progression">
-  <figcaption><strong>Figure 2:</strong> GRPO model accurately analyzing an arithmetic progression problem. Unlike the SFT model, it correctly identifies that the sequence is not an arithmetic progression and provides proper mathematical justification.</figcaption>
+  <figcaption><strong>Figure 2:</strong> GRPO model accurately analyzing an arithmetic progression problem. Unlike the SFT model, it correctly identifies that the sequence is an arithmetic progression and provides proper mathematical justification.</figcaption>
 </figure>
 
 <figure>
