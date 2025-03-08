@@ -232,20 +232,7 @@ Future work could explore:
 
 5. Both models perform best on mathematical reasoning, logic problems, and step-by-step analytical tasks.
 
-## Citation
 
-If you use this work, please cite:
-
-```bibtex
-@misc{SmallLMReasoning2024,
-  author = {Channa, Aditya},
-  title = {Enhancing Reasoning in Small Language Models: Implementing DeepSeek-R1 Strategies on LLaMA 3.2 3B},
-  year = {2024},
-  publisher = {GitHub},
-  journal = {GitHub Repository},
-  howpublished = {\url{https://github.com/adityachanna/SmallLM-Reasoning}}
-}
-```
 
 ## Acknowledgments
 
