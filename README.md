@@ -1,4 +1,4 @@
-# Reasoning-Deepseek
+# Enhancing Reasoning in Small Language Models: Implementing DeepSeek-R1 Strategies on LLaMA 3.2 3B
 
 ## Table of Contents
 - [Introduction](#introduction)
