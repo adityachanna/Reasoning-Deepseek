@@ -1,7 +1,5 @@
 # Enhancing Reasoning in Small Language Models: Implementing DeepSeek-R1 Strategies on LLaMA 3.2 3B
 
-# Enhancing Reasoning in Small Language Models: Implementing DeepSeek-R1 Strategies on LLaMA 3.2 3B
-
 <p align="center">
   <a href="https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"><img src="https://img.shields.io/badge/Model-Llama%203.2%203B-blue" alt="Model"></a>
   <a href="https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Llama3.1_(8B)-GRPO.ipynb"><img src="https://img.shields.io/badge/Unsloth-GRPO-cyan" alt="Task"></a>
